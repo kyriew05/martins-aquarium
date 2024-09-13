@@ -28,7 +28,7 @@ export const database = {
             name: "Gill",
             species: "Moorish idol fish",
             length: 6,
-            location: "Sydney dentist office aqaurium",
+            location: "Sydney dentist office aquarium",
             diet: "Carnivore",
             image:"https://i.redd.it/stjph9fdrwf41.jpg"
         },
@@ -56,5 +56,19 @@ export const database = {
             diet: "Filter Feeder",
             image:"https://themouseminute.wordpress.com/wp-content/uploads/2021/05/b0502c13-4b27-434e-8946-da58ed32677b.jpeg"
         }
+    ],
+    tips: [
+        {
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        },
+        {
+            topic: "Water Depth",
+            text: "Fish may congregate around areas with favorable depth characteristics, such as drop-offs, weed beds, or structure like sunken logs or rocks."
+        }, 
+        {
+            
+        }
+
     ]
 }
