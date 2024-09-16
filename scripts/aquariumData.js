@@ -3,7 +3,7 @@ export const database = {
         {
             name: "Nemo",
             species: "Clownfish",
-            length: 3 + " feet long",
+            length: 3 + " inches",
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://lumiere-a.akamaihd.net/v1/images/07ff8e314e2798d32bfc8c39f82a9601677de34c.jpeg?region=0,0,600,600"
@@ -11,7 +11,7 @@ export const database = {
         {
             name: "Dory",
             species: "Blue Tang",
-            length: 5 + " feet long",
+            length: 5 + " inches",
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://www.hollywoodreporter.com/wp-content/uploads/2014/12/dory_a_l.jpg"
@@ -19,7 +19,7 @@ export const database = {
         {
             name: "Marlin",
             species: "Clownfish",
-            length: 5 + " feet long",
+            length: 5 + " inches",
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image:"https://static.voices.com/wp-content/uploads/2022/12/ezgif-2-c9af4d9f6e-e1672673406534.jpg"
@@ -27,7 +27,7 @@ export const database = {
         {
             name: "Gill",
             species: "Moorish idol fish",
-            length: 6 + " feet long",
+            length: 6 + " inches",
             location: "Sydney dentist office aquarium",
             diet: "Carnivore",
             image:"https://i.redd.it/stjph9fdrwf41.jpg"
@@ -55,6 +55,14 @@ export const database = {
             location: "Schooling area near Sydney",
             diet: "Filter Feeder",
             image:"https://themouseminute.wordpress.com/wp-content/uploads/2021/05/b0502c13-4b27-434e-8946-da58ed32677b.jpeg"
+        },
+        {   name: "Bubbles",
+            species: " Yellow Tang",
+            length: 8 + " inches",
+            location: "Sydney dentist office aquarium",
+            diet: "Omnivore",
+            image: "https://i.pinimg.com/474x/93/f6/08/93f608ef4dcba3c1619be636195f0a04.jpg"
+
         }
     ],
     tip: [
@@ -69,10 +77,6 @@ export const database = {
         {
             topic: "Handling Fish Carefully",
             text: "Avoid holding fish vertically, as this can cause internal injuries."
-        },
-        {
-            topic: "Fish Evolution",
-            text: "Fish have been on Earth for about 450 million years, long before humans evolved."
         }, 
         {
             topic: "Fish Communication",
@@ -94,7 +98,7 @@ export const database = {
          {
             name: "Ocean near Sydney",
             country: "Australia",
-            description: "The ocean near Sydney is characterized by its coastal location on the Pacific Ocean, offering many beaches and recreational opportunities."
+            description: "The ocean near Sydney is known by its coastal location on the Pacific Ocean, offering many beaches and recreational opportunities."
          },
          {
             name: "Schooling area near Sydney",
