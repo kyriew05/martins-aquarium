@@ -6,7 +6,7 @@ export const locationList = () => {
         locationHTML += `
                 <section class="location">
                     <h3>${location.name}</h3>
-                    <p>${location.country}</p>
+                    <h4>${location.country}</h4>
                     <p>${location.description}</p>
                 </section>    
         `
