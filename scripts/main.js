@@ -12,6 +12,8 @@ const holyFish = mostHolyFish(database.fish)
 const soldiers = soldierFish(database.fish)
 const regulars = regularFish(database.fish)
 
+console.log(holyFish)
+
 // Generate the fish list
 const fishHTML = fishList() 
 fish.innerHTML = fishHTML
@@ -26,4 +28,4 @@ const locationHTML = locationList()
 location.innerHTML = locationHTML
 
 // Render each HTML string to the correct DOM element
-.innerHTML = `${holyFish}${soldiers}${regulars}`
+// .innerHTML = `${holyFish}${soldiers}${regulars}`

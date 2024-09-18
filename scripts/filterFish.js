@@ -1,7 +1,9 @@
-export const mostHolyFish = (fishes) => {
-    const holyFish = []
 
-    for (const fish of fishes) {
+ export const mostHolyFish = (fishes) => {
+    const holyFish = []
+// return multiples of 3 i.e. 3, 6, 9, 12, etc... fish
+
+    for (let fish of fishes) {
         if (fish.length % 3 === 0) {
             holyFish.push(fish)
         }
